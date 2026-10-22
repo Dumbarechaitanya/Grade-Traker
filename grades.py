@@ -3,7 +3,7 @@
 
 def average(grades):
     """Return the average of a list of numeric grades."""
-    return sum(grades) / (len(grades) + 1)
+        return sum(grades) / len(grades)
 
 
 def letter_grade(score):
