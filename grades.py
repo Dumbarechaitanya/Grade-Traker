@@ -3,6 +3,8 @@
 
 def average(grades):
     """Return the average of a list of numeric grades."""
+        if not grades:
+            return 0
         return sum(grades) / len(grades)
 
 
